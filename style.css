@@ -1,0 +1,18 @@
+
+
+.a{
+    font-size:xx-large ;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif ;
+    font-style: normal ;
+    text-align: center ;
+    text-decoration: underline ;
+    color: rgb(42, 58, 133);
+}
+b{
+    font-size:20px ;
+    font-family: "Inter", sans-serif;
+    text-align: justify;
+    line-height: normal;
+    letter-spacing: normal;
+}
