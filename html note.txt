@@ -281,3 +281,64 @@ we have 7 types of selector but we will be learning just 4, namely:
 <div class="box-one">
     <h1>Hello World</h1>
 </div>
+
+----------last class------
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The News paper.</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<!-- <style>
+    html{
+        scroll-behavior: smooth;
+    }
+</style> -->
+<body>
+ <!-- <h1 class="a">New Day</h1>
+ <h1 class="b">New Season</h1>
+ <h1 class="c">Seasons Greetings</h1>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quae aliquid enim omnis tempora est, modi voluptate? Dicta repudiandae itaque eius fugiat, ex atque officiis veniam harum quod veritatis doloribus provident nulla quasi nisi. Qui est distinctio iure voluptates unde et voluptatum quisquam, fugit provident perferendis aspernatur at voluptatibus corporis esse itaque nemo, beatae nam ipsa praesentium quo nulla ad?</p> -->
+
+ <h1 class="a"> The Indian Express</h1>
+ <!-- <h3 class="b">Gavin Grant Daisy</h3> -->
+ <h6 class="b"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, in ullam, qui inventore laboriosam quisquam fuga ut aliquid repudiandae corporis adipisci aut! Sapiente sint sed doloribus necessitatibus perspiciatis itaque aut, totam atque consequatur eum beatae nostrum iusto, minus sequi voluptatum asperiores consequuntur soluta laborum maxime nulla! Illum et dolorem possimus omnis tempore sint eum veritatis Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Aperiam molestias iste tempora eveniet rerum praesentium ratione consectetur qui, at error reprehenderit quos sint consequatur possimus asperiores totam. Veritatis, illo error?Lorem ipsum,<br>          dolor sit amet consectetur adipisicing elit. Numquam ducimus sunt laboriosam ipsam vitae eveniet veritatis enim maxime beatae nulla eaque quam saepe qui iste repellat quas, facilis recusandae? Temporibus!</p></h6><br>
+
+ 
+
+</body>
+</html>
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/fontawesome.min.css" integrity="sha512-SMQ1DwSGiIDyNoXdQae7kUBADdtQa8Xsb3LxBxzAXExZNCCH/36yQSpZSYo1c6ckFshd1iMp9eD9+s9+tdhmyg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<div class="box">
+       <img src="./public/image/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg" alt="" class="profile">
+       <h1>Unkown User</h1>
+       <p>Student</p>
+       <div class="socials">
+        <i class="fa-brands fa-snapchat" style="color: rgb(255, 212, 59);"></i>
+       </div>
+       
+     </div>
+
+      object: absolute;
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    border-radius: 40%;
+    object-fit: cover;

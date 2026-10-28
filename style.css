@@ -1,18 +1,63 @@
+/* Layout-> Display, Positioning, Float */
 
+/* dry */
 
-.a{
-    font-size:xx-large ;
-    font-weight: 700;
-    font-family: "Poppins", sans-serif ;
-    font-style: normal ;
-    text-align: center ;
-    text-decoration: underline ;
-    color: rgb(42, 58, 133);
+/* Display: block, inline-block, none, flex, inline-flex, grid, inline-g */
+/* padding has x and y axis too */
+/* flex has element that works for it alone -> justify content,align-items, gap, flex-direction, flex-wrap*/
+/* h1{
+    display:inline;
+    background: pink;
+    padding: 5px;
 }
-b{
-    font-size:20px ;
-    font-family: "Inter", sans-serif;
-    text-align: justify;
-    line-height: normal;
-    letter-spacing: normal;
+p{
+    display:inline;
+    background: pink;
+    padding: 5px;
+} */
+
+h1,h2,h3,h4,h5,h6{
+    line-height: 0;
+}
+
+.btn-con{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn{
+    border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.btn:hover{
+    background: #000;
+    color: white;
+    transition: 0.5s;
+}
+
+.div-1{
+    width: 1200px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.div-1 .div{
+    width: 50%;
+}
+
+.div-1 image{
+   border-radius: 50%;
+   width: 400px;
+   height: 400px;
+   overflow: hidden;
 }
