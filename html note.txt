@@ -342,3 +342,28 @@ we have 7 types of selector but we will be learning just 4, namely:
     margin: 20px;
     border-radius: 40%;
     object-fit: cover;
+
+
+
+
+    <div>
+    <div class="div-1">
+      <div class="div">
+        <h1 style="font-size: 80px;">Elegushi Fahmeedah Oyinade</h1>
+        <h4>Student|Web developer</h4>
+        <p style="font-size: 30px;">I am learning to be a Full-Stack web dev</p>
+      </div>
+
+      <div class="btn-con">
+        <button class="btn">Let's charset</button>
+        <button class="btn">Resume</button>
+      </div>
+
+      <div class="div image">
+        <img src="./public/image/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg" alt="" width="100%">
+      </div>
+      
+      
+  </div>
+
+  <!-- span element like div but withan inline display as default. IT can't take some design too -->

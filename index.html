@@ -5,28 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/fontawesome.min.css" integrity="sha512-SMQ1DwSGiIDyNoXdQae7kUBADdtQa8Xsb3LxBxzAXExZNCCH/36yQSpZSYo1c6ckFshd1iMp9eD9+s9+tdhmyg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
-  <!-- span element like div but withan inline display as default. IT can't take some design too -->
-  <div>
-    <div class="div-1">
-      <div class="div">
-        <h1 style="font-size: 80px;">Elegushi Fahmeedah Oyinade</h1>
-        <h4>Student|Web developer</h4>
-        <p style="font-size: 30px;">I am learning to be a Full-Stack web dev</p>
-      </div>
+  <div class="profile-card-container">
+     <div class="card">
+      <!-- image div -->
+       <div class="image-div">
+        <img src="./public/image/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg" alt="">
+       </div>
 
-      <div class="btn-con">
-        <button class="btn">Let's charset</button>
-        <button class="btn">Resume</button>
-      </div>
 
-      <div class="div image">
-        <img src="./public/image/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg" alt="" width="100%">
+      <!-- content div -->
+      <div class="content-div">
+        <div class="text">
+          <h1>Username</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni enim fuga qui voluptatum ullam molestiae voluptates, numquam fugia</p>
+        </div>
+        <div class="social-media-container">
+            <div class="social-icons">
+            <span>
+             <i class="fa-brands fa-linkedin"></i>
+            </span>
+            <span>
+              <i class="fa-brands fa-github"></i>
+            </span>
+          </div>
+          <div class="btn">
+            <button>Follow</button>
+          </div>
+        </div>
       </div>
-      
-      
+     </div>
   </div>
 </body>
 </html>
