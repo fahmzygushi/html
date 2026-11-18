@@ -3,13 +3,22 @@
   margin: 0;
   
 }
-
-.profile-card-container{
+.cards-container{
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
   height: 100vh;
+  padding: 20px;
 }
+
+/* .profile-card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+} */
 .card{
   width:300px;
   height: 400px;
@@ -67,4 +76,27 @@
   /* border-radius: 10px; */
   padding: 10px;
   
+}
+/* .profile-card-container2{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+.card2{
+  width:300px;
+  height: 400px;
+  border: 2px solid orange;
+  border-radius: 20px;
+  padding: 20px;
+  overflow: hidden;
+  background-image: url(./public/image/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card2 .content-div{
+
 }
